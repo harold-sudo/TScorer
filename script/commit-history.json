@@ -190,17 +190,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d7231bbb69c47b8e2045b6463a43f55bb2ae596d",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-08-31T23:34:51.000Z",
       "message": "Feat: refactorizando código",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/d7231bbb69c47b8e2045b6463a43f55bb2ae596d"
     },
     "stats": {
       "total": 80,
       "additions": 59,
       "deletions": 21,
+      "date": "2025-08-31"
+    },
+    "coverage": 100,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-08-31T23:38:38.000Z",
+      "message": "Fix: refactorizando código",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
       "date": "2025-08-31"
     },
     "coverage": 100,
