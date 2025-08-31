@@ -4,7 +4,7 @@ class TScorer {
         this.player2Points = 0;
     }
     showScore() {
-        const scoreNames = ["Love", "15", "30"];
+        const scoreNames = ["Love", "15", "30", "40"];
         return `${scoreNames[this.player1Points]} - ${scoreNames[this.player2Points]}`;
     }
     player1Scores() {
