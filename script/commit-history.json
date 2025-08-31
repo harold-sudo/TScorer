@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-08-31T21:22:18.000Z",
+      "message": "First commit: test en rojo para comienzo de marcador",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 6,
+      "deletions": 40,
+      "date": "2025-08-31"
+    },
+    "coverage": 0,
+    "test_count": 1,
+    "failed_tests": 1,
+    "conclusion": "failure"
+  }
+]
