@@ -12,4 +12,8 @@ describe("Tennis Scorer:", () => {
   it("jugador 2 anota, genera empate, deberia mostrar el marcador en 15 - 15", () => {
     expect(tscorer(1, 1)).toEqual("15 - 15");
   });
+
+  it("jugador 1 anota, deberia mostrar el marcador en 30 - 15", () => {
+    expect(tscorer(1, 1)).toEqual("30 - 15");
+  });
 });
