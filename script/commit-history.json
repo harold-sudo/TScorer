@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "a9cb90ef0155e87c2f83886b0902569e1910cbe3",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-08-31T21:22:18.000Z",
       "message": "First commit: test en rojo para comienzo de marcador",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/a9cb90ef0155e87c2f83886b0902569e1910cbe3"
     },
     "stats": {
       "total": 46,
@@ -17,5 +17,24 @@
     "test_count": 1,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-08-31T21:27:27.000Z",
+      "message": "Feat: test en verde para comienzo del marcador",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2025-08-31"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

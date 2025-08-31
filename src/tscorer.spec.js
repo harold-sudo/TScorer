@@ -1,4 +1,6 @@
-describe("Tennis Scorer", () => {
+import tscorer from "./tscorer.js";
+
+describe("Tennis Scorer:", () => {
   it("deberia mostrar marcador Love - Love", () => {
     expect(tscorer()).toEqual("Love - Love");
   });
