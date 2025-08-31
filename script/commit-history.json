@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7c89d5ea356337797179e96b20d1717a3e28ce78",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-08-31T21:33:46.000Z",
       "message": "Feat: test en rojo  para jugador 2 anota, genera empate",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/7c89d5ea356337797179e96b20d1717a3e28ce78"
     },
     "stats": {
       "total": 4,
@@ -93,5 +93,24 @@
     "test_count": 3,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-08-31T21:35:36.000Z",
+      "message": "Feat: test en verde para jugador 2 anota, genera empate",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 9,
+      "deletions": 5,
+      "date": "2025-08-31"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

@@ -1,7 +1,11 @@
-function tscorer(fst) {
-    if (fst === 1) 
+function tscorer(fst, snd) {
+    if (fst === 1 && snd === 0) 
     {
         return "15 - Love";
+    }
+    else if (fst === 1 && snd === 1)
+    {
+        return "15 - 15";
     }
     return "Love - Love";
 }
