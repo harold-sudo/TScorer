@@ -11,6 +11,10 @@ function tscorer(fst, snd) {
     {
         return "30 - 15";
     }
+    else if (fst === 2 && snd === 2)
+    {
+        return "30 - 30";
+    }
     return "Love - Love";
 }
 export default tscorer;
