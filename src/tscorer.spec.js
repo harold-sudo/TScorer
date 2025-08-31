@@ -6,6 +6,6 @@ describe("Tennis Scorer:", () => {
   });
 
   it("jugador 1 anota, deberia mostrar el marcador en 15 - Love", () => {
-    expect(tscorer()).toEqual("15 - Love");
+    expect(tscorer(1)).toEqual("15 - Love");
   });
 });
