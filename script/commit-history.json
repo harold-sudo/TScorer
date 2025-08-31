@@ -171,17 +171,36 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "b973399ae7e7c5cf544b52313f1ab15e2a00f012",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-08-31T23:23:55.000Z",
       "message": "Feat: test en verde para jugador 2 anota (30 - 30)",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/b973399ae7e7c5cf544b52313f1ab15e2a00f012"
     },
     "stats": {
       "total": 6,
       "additions": 5,
       "deletions": 1,
+      "date": "2025-08-31"
+    },
+    "coverage": 100,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-08-31T23:34:51.000Z",
+      "message": "Feat: refactorizando código",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 80,
+      "additions": 59,
+      "deletions": 21,
       "date": "2025-08-31"
     },
     "coverage": 100,
