@@ -5,6 +5,12 @@ class TScorer {
     }
     showScore() {
         const scoreNames = ["Love", "15", "30", "40"];
+        if (this.player1Points >= 3 && this.player2Points >= 3) 
+        {
+            if (this.player1Points === this.player2Points) {
+                return "Deuce";
+            }
+        }
         return `${scoreNames[this.player1Points]} - ${scoreNames[this.player2Points]}`;
     }
     player1Scores() {

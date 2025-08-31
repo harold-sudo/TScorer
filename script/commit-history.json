@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "437a45e53a448b344541416ab94adcd98c5e5e46",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-08-31T23:46:19.000Z",
       "message": "Feat: test en rojo para jugador 2 anota (Deuce)",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/437a45e53a448b344541416ab94adcd98c5e5e46"
     },
     "stats": {
       "total": 12,
@@ -283,5 +283,24 @@
     "test_count": 7,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-08-31T23:50:03.000Z",
+      "message": "Feat: test en verde para jugador 2 anota (Deuce)",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2025-08-31"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
