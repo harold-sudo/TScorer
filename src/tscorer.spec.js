@@ -51,4 +51,16 @@ describe("Tennis Scorer:", () => {
     expect(scorer.showScore()).toEqual("40 - 30");
     //expect(tscorer(3, 2)).toEqual("40 - 30");
   });
+  
+  it("jugador 2 anota, genera empate, deberia mostrar el marcador en Deuce", () => {
+    const scorer = new TScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("Deuce");
+    //expect(tscorer(3, 3)).toEqual("Deuce");
+  });
 });
