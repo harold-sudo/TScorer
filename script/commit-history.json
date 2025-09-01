@@ -361,12 +361,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "96149c7d9842f44b2fe94990bef580bf13069b2a",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-01T13:02:05.000Z",
       "message": "Feat: test en verde para jugador 1 anota (Game Player 1)",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/96149c7d9842f44b2fe94990bef580bf13069b2a"
     },
     "stats": {
       "total": 3,
@@ -375,6 +375,25 @@
       "date": "2025-09-01"
     },
     "coverage": 100,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-01T13:07:16.000Z",
+      "message": "Feat: refactorización, marcador funcional con todos los casos",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 15,
+      "deletions": 3,
+      "date": "2025-09-01"
+    },
+    "coverage": 76.19,
     "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"

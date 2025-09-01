@@ -5,17 +5,29 @@ class TScorer {
     }
     showScore() {
         const scoreNames = ["Love", "15", "30", "40"];
-        if (this.player1Points >= 3 && this.player2Points >= 3) 
-        {
+        if (this.player1Points >= 3 && this.player2Points >= 3) {
             if (this.player1Points === this.player2Points) {
                 return "Deuce";
             }
             if (this.player1Points === this.player2Points + 1) {
                 return "Advantage Player 1";
             }
-            if (this.player1Points === this.player2Points + 2) {
+            if (this.player2Points === this.player1Points + 1) {
+                return "Advantage Player 2";
+            }
+            if (this.player1Points >= this.player2Points + 2) {
                 return "Game Player 1";
             }
+            if (this.player2Points >= this.player1Points + 2) {
+                return "Game Player 2";
+            }
+        }
+        // Win before deuce
+        if (this.player1Points >= 4 && this.player1Points >= this.player2Points + 2) {
+            return "Game Player 1";
+        }
+        if (this.player2Points >= 4 && this.player2Points >= this.player1Points + 2) {
+            return "Game Player 2";
         }
         return `${scoreNames[this.player1Points]} - ${scoreNames[this.player2Points]}`;
     }
