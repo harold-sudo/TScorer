@@ -63,4 +63,16 @@ describe("Tennis Scorer:", () => {
     expect(scorer.showScore()).toEqual("Deuce");
     //expect(tscorer(3, 3)).toEqual("Deuce");
   });
+
+  it("jugador 1 anota, deberia mostrar el marcador en Advantage Player 1", () => {
+    const scorer = new TScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("Advantage Player 1");
+  });
 });
