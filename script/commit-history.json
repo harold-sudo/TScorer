@@ -380,17 +380,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "181187cdf6350d43abbe10058263aee0115c19a6",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-01T13:07:16.000Z",
       "message": "Feat: refactorización, marcador funcional con todos los casos",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/181187cdf6350d43abbe10058263aee0115c19a6"
     },
     "stats": {
       "total": 18,
       "additions": 15,
       "deletions": 3,
+      "date": "2025-09-01"
+    },
+    "coverage": 76.19,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-01T13:20:36.000Z",
+      "message": "Fix: código completo",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 32,
+      "deletions": 1,
       "date": "2025-09-01"
     },
     "coverage": 76.19,

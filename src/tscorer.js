@@ -22,7 +22,7 @@ class TScorer {
                 return "Game Player 2";
             }
         }
-        // Win before deuce
+
         if (this.player1Points >= 4 && this.player1Points >= this.player2Points + 2) {
             return "Game Player 1";
         }
