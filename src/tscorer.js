@@ -13,6 +13,9 @@ class TScorer {
             if (this.player1Points === this.player2Points + 1) {
                 return "Advantage Player 1";
             }
+            if (this.player1Points === this.player2Points + 2) {
+                return "Game Player 1";
+            }
         }
         return `${scoreNames[this.player1Points]} - ${scoreNames[this.player2Points]}`;
     }
