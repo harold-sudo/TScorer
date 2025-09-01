@@ -75,4 +75,17 @@ describe("Tennis Scorer:", () => {
     scorer.player2Scores();
     expect(scorer.showScore()).toEqual("Advantage Player 1");
   });
+
+  it("jugador 1 anota, deberia mostrar el marcador en Game Player 1", () => {
+    const scorer = new TScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("Game Player 1");
+  });
 });

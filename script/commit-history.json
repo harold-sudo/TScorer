@@ -323,12 +323,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "97bc4318b5b9b654012f13654fe9a48b33f9f46b",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-01T12:56:41.000Z",
       "message": "Feat: test en verde para jugador 1 anota (Advantage Player 1)",
-      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+      "url": "https://github.com/harold-sudo/TScorer/commit/97bc4318b5b9b654012f13654fe9a48b33f9f46b"
     },
     "stats": {
       "total": 3,
@@ -340,5 +340,24 @@
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-01T13:00:00.000Z",
+      "message": "Feat: test en rojo para jugador 1 anota (Game Player 1)",
+      "url": "https://github.com/harold-sudo/TScorer/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2025-09-01"
+    },
+    "coverage": 100,
+    "test_count": 9,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
